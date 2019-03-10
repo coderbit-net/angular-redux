@@ -2,7 +2,7 @@ import { applyMiddleware, createStore, Store } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import { createLogger } from 'redux-logger';
 import rootReducer from './core.reducers';
-import { featureOne } from '../modules/featureOne/featureOne.types';
+import { featureOne } from '../modules/feature-one/feature-one.types';
 
 const middlewares = [createLogger()];
 const predefinedState = {};

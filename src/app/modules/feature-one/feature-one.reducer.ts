@@ -1,4 +1,4 @@
-import { featureOne } from './featureOne.types';
+import { featureOne } from './feature-one.types';
 
 const initialState: featureOne = {
   customized: false,
