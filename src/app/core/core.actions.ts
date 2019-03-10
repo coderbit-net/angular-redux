@@ -1,1 +1,1 @@
-export default () => {};
+export const ACTION_SOMETHING = 'ACTION_SOMETHING';

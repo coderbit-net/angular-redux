@@ -2,3 +2,13 @@ html,
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+button {
+  padding: 10px;
+  border: 1px solid #7e7e7e;
+  border-radius: 6px;
+  background: #dddddd;
+}
+
+button:focus {
+}

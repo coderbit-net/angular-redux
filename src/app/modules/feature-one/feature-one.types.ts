@@ -1,5 +1,5 @@
+export const FEATURE_ONE_TRIGGERED = 'FEATURE_ONE_TRIGGERED';
 export interface featureOne {
-  customized: boolean;
-  checksum: string | null;
-  message: string;
+  clicked: boolean;
+  timestamp?: Date;
 }
